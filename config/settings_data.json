@@ -32,7 +32,7 @@
     "currency_code_enabled": false,
     "stagger_products_apparition": true,
     "round_color_swatches": true,
-    "color_swatch_config": "Coral: #FBA474\nCaramelo: #D48E19\nPreta: #000000\nPreto: #000000\nBranca: #FFFFFF\nLilás: #c8a2c8 \nCarbox: #293542 \nFendi: #bea07d \nVerde Militar: #78866b\nRosa Claro: #ffb6c1\nAzul Marinho: #042D62\nFucsia: #9e366d\nRosa pop: #FE6289\nRosa claro: #E7B5B1\nTiffany:  #C6EBE7\nRosa Pink: #E92C9B\nVerde Água: #00b89f\nAzul Royal: #4169e1\nRosa Neon: #ff007f \nCherry: #790604\nPérola: #f1e3cf\nCobalto: #59708D\nVermelha: #FF0000\nVerde petróleo: #306166\nCafé: #463221\nBronze: #A24D2A\nBlossom: #FCBED3\nMilkshake: #FC95C3\nHortênsia: #62598D\nAlecrim: #39876f\nMilkshake: #f284b5\nMescla: #828c93\nCappuccino: #67391e\nMaça Verde: #c1daa4",
+    "color_swatch_config": "Cru:#ebded4\nMarrom:#753c2d\nCafé:#332219\nTerra:#c4533e\nVerde:#23311d\nOff White:#fef3ea",
     "product_card_text_font": "heading",
     "product_color_display": "swatch",
     "show_product_rating": false,
