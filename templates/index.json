@@ -52,6 +52,37 @@
         "controls_color": "#ffffff"
       }
     },
+    "featured_collections_aemnrr": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_QyNabp": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_QyNabp"
+      ],
+      "custom_css": [
+        ".h2 {display: none;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "collection_list_LNQHQ7": {
       "type": "collection-list",
       "blocks": {
@@ -147,37 +178,6 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "rich_text_acExkH": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_bazyAG": {
-          "type": "heading",
-          "settings": {
-            "text": "Best Sellers",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_HaEpC9": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Que encantam e tornam cada momento especial</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_bazyAG",
-        "richtext_HaEpC9"
-      ],
-      "custom_css": [
-        "{margin-top: 5%;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "md",
-        "text_position": "center",
-        "remove_vertical_spacing": true
-      }
-    },
     "featured_collections_Yk6KQG": {
       "type": "featured-collections",
       "blocks": {
@@ -210,12 +210,49 @@
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
+    },
+    "image_with_text_zKMDkf": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_gqd4UV": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_LpjTqH": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_VF499U": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gqd4UV",
+        "heading_LpjTqH",
+        "richtext_VF499U"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "slideshow",
+    "featured_collections_aemnrr",
     "collection_list_LNQHQ7",
-    "rich_text_acExkH",
+    "image_with_text_zKMDkf",
     "featured_collections_Yk6KQG"
   ]
 }
