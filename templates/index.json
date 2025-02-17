@@ -162,7 +162,7 @@
         "collection_pUHqGP"
       ],
       "custom_css": [
-        ".button {color: white; background-color: #670019 !important; border-radius: none !important; border-color: #670019; background-image: none;}"
+        "#.button {color: white; background-color: #670019 !important; border-radius: none !important; border-color: #670019; background-image: none;}"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -176,39 +176,6 @@
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "featured_collections_Yk6KQG": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_kJURLm": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-seller",
-            "products_count": 8,
-            "title": "Best sellers",
-            "link_url": "",
-            "link_text": "explore mais"
-          }
-        }
-      },
-      "block_order": [
-        "collection_kJURLm"
-      ],
-      "custom_css": [
-        ".price-list {display: none;}",
-        ".h2 {display: none;}",
-        ".button {background-color: white;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "image_with_text_zKMDkf": {
@@ -245,6 +212,39 @@
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_Yk6KQG": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_kJURLm": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-seller",
+            "products_count": 8,
+            "title": "Best sellers",
+            "link_url": "",
+            "link_text": "explore mais"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kJURLm"
+      ],
+      "custom_css": [
+        ".price-list {display: none;}",
+        ".h2 {display: none;}",
+        ".button {background-color: white;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     }
   },
