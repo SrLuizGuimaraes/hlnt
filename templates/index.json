@@ -190,7 +190,7 @@
         "collection_pUHqGP"
       ],
       "custom_css": [
-        ".button {color: white; background-color: #7f7047 !important; border-radius: none !important; border-color: white; background-image: none;}"
+        ".button {color: white; background-color: black !important; border-radius: none !important; border-color: white; background-image: none;}"
       ],
       "settings": {
         "separate_section_with_border": true,
