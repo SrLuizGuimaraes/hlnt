@@ -41,7 +41,7 @@
         "image_Wk4zGq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banner_Lote_1919cf96-dbf5-40e9-95bb-64729ff6890f.jpg",
+            "image": "shopify://shop_images/Banner_Lote_1.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -193,7 +193,7 @@
         ".button {color: white; background-color: #7f7047 !important; border-radius: none !important; border-color: white; background-image: none;}"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": false,
