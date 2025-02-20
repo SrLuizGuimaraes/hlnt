@@ -43,9 +43,7 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [
-        "{background-color: ##;}"
-      ],
+      "custom_css": [],
       "settings": {
         "enable_sticky": false,
         "show_separation_border": false,
