@@ -48,7 +48,7 @@
         "enable_sticky": false,
         "show_separation_border": false,
         "reduce_padding": true,
-        "logo": "shopify://shop_images/lote_logotipo_rgb-06_1.png",
+        "logo": "shopify://shop_images/logo_branca.png",
         "logo_max_width": 110,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
