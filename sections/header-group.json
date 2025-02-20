@@ -37,18 +37,38 @@
         "cycle_speed": 3,
         "desktop_font_size": 11,
         "mobile_font_size": 10,
-        "background": "#7f7047",
+        "background": "#000000",
         "text_color": "#ffffff"
       }
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_3CQDXh": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "images_position": "right",
+            "image_1": "shopify://shop_images/Logo_png_branco.png",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2": "shopify://shop_images/Logo_png_branco.png",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_3CQDXh"
+      ],
       "custom_css": [],
       "settings": {
         "enable_sticky": false,
         "show_separation_border": false,
         "reduce_padding": true,
-        "logo": "shopify://shop_images/logo_branca_af5193ce-aa36-448f-88ee-906c9df8a4ec.png",
+        "logo": "shopify://shop_images/Logo_png_branco.png",
         "logo_max_width": 110,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
@@ -64,7 +84,7 @@
         "show_country_flag": false,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/Logo_png_branco.png"
+        "transparent_logo": "shopify://shop_images/logo_branca.png"
       }
     }
   },
