@@ -43,6 +43,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Banner_Lote_1.jpg",
+            "mobile_image": "shopify://shop_images/Banner_site_Lote_mobile_1.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
