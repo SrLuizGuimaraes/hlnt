@@ -138,6 +138,7 @@
           "type": "collection",
           "settings": {
             "collection": "vestidos",
+            "image": "shopify://shop_images/3_92501fdc-f94d-48eb-a2a7-55fd291f57f7.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
