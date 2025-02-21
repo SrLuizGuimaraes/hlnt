@@ -120,6 +120,7 @@
           "type": "collection",
           "settings": {
             "collection": "conjuntos",
+            "image": "shopify://shop_images/1_548860fe-641b-4450-8114-14dc09261511.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
