@@ -156,6 +156,7 @@
           "type": "collection",
           "settings": {
             "collection": "camisas",
+            "image": "shopify://shop_images/2_c45c1d9a-90ef-4479-b99c-df4c96c738a7.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
