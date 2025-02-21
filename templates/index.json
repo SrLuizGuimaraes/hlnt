@@ -16,6 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Banner_Lote_3.jpg",
+            "mobile_image": "shopify://shop_images/Banner_site_Lote_mobile.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -190,7 +191,7 @@
         "collection_pUHqGP"
       ],
       "custom_css": [
-        ".button {color: white; background-color: trans !important;border: none; border-color: none; background-image: none;}"
+        ".button {color: white; background-color: trans !important; border: none; border-color: none; background-image: none;}"
       ],
       "settings": {
         "separate_section_with_border": true,
