@@ -14,7 +14,7 @@
       "settings": {
         "image": "shopify://shop_images/Banner_paginas_Lote_1080_x_200_px.jpg",
         "image_size": "auto",
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "reveal": true,
         "enable_parallax": true,
         "show_collection_title": false,
