@@ -225,7 +225,7 @@
           "settings": {
             "collection": "best-seller",
             "products_count": 8,
-            "title": "Best sellers",
+            "title": "Mias vendidos",
             "link_url": "",
             "link_text": "explore mais"
           }
@@ -236,7 +236,7 @@
       ],
       "custom_css": [
         ".price-list {display: none;}",
-        ".h2 {display: none;}",
+        ".h2 {display: ;}",
         ".button {background-color: white;}"
       ],
       "settings": {
