@@ -43,7 +43,7 @@
         "image_p7PRGE"
       ],
       "custom_css": [
-        "{margin: 30px;}"
+        "{margin: 40px;}"
       ],
       "settings": {
         "allow_transparent_header": false,
