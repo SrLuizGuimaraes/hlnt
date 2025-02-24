@@ -12,7 +12,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "settings": {
-        "image": "shopify://shop_images/Banner_demais_paginas.jpg",
+        "image": "shopify://shop_images/Banner_paginas_Lote_1080_x_200_px.jpg",
         "image_size": "auto",
         "allow_transparent_header": true,
         "reveal": true,
