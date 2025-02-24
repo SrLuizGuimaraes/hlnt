@@ -29,7 +29,7 @@
           "settings": {
             "option_name": "Cor",
             "option_value_metafield": "custom.valor_variavel",
-            "products": [],
+            "products": "{{ product.metafields.custom.variation_produtcs.value }}",
             "color_selector_type": "color"
           }
         },
