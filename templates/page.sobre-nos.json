@@ -49,8 +49,8 @@
         "allow_transparent_header": false,
         "show_next_section_button": false,
         "media_size": "auto",
-        "autoplay": true,
-        "autoplay_pause_on_video": true,
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
         "cycle_speed": 4,
         "background": "#000000",
         "controls_color": "#ffffff"
