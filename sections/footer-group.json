@@ -31,6 +31,7 @@
         "image_qfnPYD": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Logo_png_branco.png",
             "image_width": 150,
             "link": ""
           }
