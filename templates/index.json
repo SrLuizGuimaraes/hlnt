@@ -249,12 +249,46 @@
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
+    },
+    "featured_collections_y6X3a9": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_xY3wWr": {
+          "type": "collection",
+          "settings": {
+            "collection": "conjuntos",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "explore mais"
+          }
+        }
+      },
+      "block_order": [
+        "collection_xY3wWr"
+      ],
+      "custom_css": [
+        ".price-list {display: none;}",
+        ".h2 {display: ;}",
+        ".button {background-color: white;}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "collection_list_LNQHQ7",
     "image_with_text_zKMDkf",
-    "featured_collections_Yk6KQG"
+    "featured_collections_Yk6KQG",
+    "featured_collections_y6X3a9"
   ]
 }
