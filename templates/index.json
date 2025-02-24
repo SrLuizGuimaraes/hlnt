@@ -82,37 +82,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "featured_collections_aemnrr": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_QyNabp": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-seller",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_QyNabp"
-      ],
-      "custom_css": [
-        ".h2 {display: none;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "collection_list_LNQHQ7": {
       "type": "collection-list",
       "blocks": {
@@ -284,7 +253,6 @@
   },
   "order": [
     "slideshow",
-    "featured_collections_aemnrr",
     "collection_list_LNQHQ7",
     "image_with_text_zKMDkf",
     "featured_collections_Yk6KQG"
