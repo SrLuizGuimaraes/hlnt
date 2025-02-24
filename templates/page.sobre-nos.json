@@ -70,12 +70,15 @@
         "heading_q8hV3e",
         "richtext_RbNJKa"
       ],
+      "custom_css": [
+        "img {border-radius: 4%; margin-left: 3%;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     },
     "image_with_text_qWJjbQ": {
@@ -99,12 +102,15 @@
         "heading_HGkT7F",
         "richtext_pMM4wR"
       ],
+      "custom_css": [
+        "img {border-radius: 4%; margin-left: 3%;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     },
     "image_with_text_cjy4VH": {
@@ -128,12 +134,15 @@
         "heading_DpxHdk",
         "richtext_zUyUrF"
       ],
+      "custom_css": [
+        "img {border-radius: 4%; margin-left: 3%;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     }
   },
