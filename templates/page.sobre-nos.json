@@ -9,6 +9,53 @@
  */
 {
   "sections": {
+    "slideshow_RAYgNY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_p7PRGE": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify://shop_images/Banner_site_Lote_mobile_ca66a94e-06e9-49fd-9a6b-531b07d96c53.jpg",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 400,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_p7PRGE"
+      ],
+      "custom_css": [
+        "{margin:30px;}"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 4,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -43,6 +90,7 @@
       ],
       "settings": {
         "separate_section_with_border": false,
+        "mobile_image": "shopify://shop_images/01.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -75,6 +123,7 @@
       ],
       "settings": {
         "separate_section_with_border": true,
+        "mobile_image": "shopify://shop_images/02.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
@@ -107,6 +156,7 @@
       ],
       "settings": {
         "separate_section_with_border": true,
+        "mobile_image": "shopify://shop_images/03.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -147,6 +197,7 @@
     }
   },
   "order": [
+    "slideshow_RAYgNY",
     "main",
     "image_with_text_inD4LL",
     "image_with_text_kxCWjE",
