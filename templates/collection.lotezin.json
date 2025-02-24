@@ -13,7 +13,8 @@
       "type": "collection-banner",
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/Banner_pagina_Lotezin.jpg",
+        "image": "shopify://shop_images/Banner_pag_Lotezin_Desk_top.jpg",
+        "mobile_image": "shopify://shop_images/Banner_pag_Lotezin_mobile.jpg",
         "image_size": "auto",
         "allow_transparent_header": true,
         "reveal": true,
