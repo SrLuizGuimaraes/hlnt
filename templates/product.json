@@ -24,6 +24,15 @@
             "show_taxes_notice": false
           }
         },
+        "product_variations_YYjeRM": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "Cor",
+            "option_value_metafield": "custom.valor_variavel",
+            "products": [],
+            "color_selector_type": "color"
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -83,6 +92,7 @@
       "block_order": [
         "title",
         "price",
+        "product_variations_YYjeRM",
         "payment_terms",
         "liquid_BtCgjd",
         "quantity_selector",
