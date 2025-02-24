@@ -11,16 +11,17 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
-      "disabled": true,
+      "custom_css": [],
       "settings": {
-        "image_size": "xs",
+        "image": "shopify://shop_images/Banner_pagina_Lotezin.jpg",
+        "image_size": "auto",
         "allow_transparent_header": true,
         "reveal": true,
-        "enable_parallax": true,
-        "show_collection_title": true,
+        "enable_parallax": false,
+        "show_collection_title": false,
         "show_collection_description": true,
         "show_breadcrumb": true,
-        "content_width": "xs",
+        "content_width": "md",
         "background": "#000000",
         "text_color": "#ffffff",
         "overlay_color": "#000000",

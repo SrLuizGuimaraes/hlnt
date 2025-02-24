@@ -181,42 +181,6 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "image_with_text_zKMDkf": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_gqd4UV": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_LpjTqH": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_VF499U": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_gqd4UV",
-        "heading_LpjTqH",
-        "richtext_VF499U"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
-    },
     "featured_collections_Yk6KQG": {
       "type": "featured-collections",
       "blocks": {
@@ -282,13 +246,49 @@
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
+    },
+    "image_with_text_zKMDkf": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_gqd4UV": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_LpjTqH": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_VF499U": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gqd4UV",
+        "heading_LpjTqH",
+        "richtext_VF499U"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "slideshow",
     "collection_list_LNQHQ7",
-    "image_with_text_zKMDkf",
     "featured_collections_Yk6KQG",
-    "featured_collections_y6X3a9"
+    "featured_collections_y6X3a9",
+    "image_with_text_zKMDkf"
   ]
 }
