@@ -38,6 +38,7 @@
     "show_product_rating": false,
     "show_quick_buy": false,
     "show_sold_out_badge": false,
+    "show_discount": false,
     "cart_type": "drawer",
     "social_instagram": "https://www.instagram.com/melissacottabrand?igsh=OHB2eTRraWthNXI1&utm_source=qr",
     "social_whatsapp": "https://wa.me/31971944229",
