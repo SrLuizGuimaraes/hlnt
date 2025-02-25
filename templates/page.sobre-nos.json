@@ -29,14 +29,32 @@
         "overlay_opacity": 0
       }
     },
-    "custom_liquid_znd3Y9": {
-      "type": "custom-liquid",
+    "rich_text_eWrQAE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MD8paW": {
+          "type": "heading",
+          "settings": {
+            "text": "Sobre Nós",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_x6pQXL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A Lote é uma marca que acredita na moda descomplicada, mas cheia de propósito. Comandada por Janaina Miglio, nossa missão é criar peças que traduzam a espontaneidade da vida cotidiana, sem abrir mão da autenticidade.</p><p>Cada peça foi pensada para proporcionar liberdade, praticidade e beleza no seu dia a dia.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MD8paW",
+        "richtext_x6pQXL"
+      ],
       "settings": {
         "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p>A Lote é uma marca que acredita na moda descomplicada, mas cheia de propósito. Comandada por Janaina Miglio, nossa missão é criar peças que traduzam a espontaneidade da vida cotidiana, sem abrir mão da autenticidade. \n\n</p><br>Cada peça foi pensada para proporcionar liberdade, praticidade e beleza no seu dia a dia.</p>",
-        "text_alignment": "center"
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "main": {
@@ -78,7 +96,7 @@
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "image_with_text_kxCWjE": {
@@ -112,7 +130,7 @@
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "image_with_text_qWJjbQ": {
@@ -146,7 +164,7 @@
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "image_with_text_cjy4VH": {
@@ -184,7 +202,7 @@
   },
   "order": [
     "image_with_text_overlay_jteGH4",
-    "custom_liquid_znd3Y9",
+    "rich_text_eWrQAE",
     "main",
     "image_with_text_inD4LL",
     "image_with_text_kxCWjE",
