@@ -71,14 +71,14 @@
         "heading_iCxzxg": {
           "type": "heading",
           "settings": {
-            "text": "Sobre Nós",
+            "text": "Produção",
             "heading_tag": "h1"
           }
         },
         "richtext_YYzLWg": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A Lote é uma marca que acredita na moda descomplicada, mas cheia de propósito. Comandada por Janaina Miglio, nossa missão é criar peças que traduzam a espontaneidade da vida cotidiana, sem abrir mão da autenticidade. </p><p>Cada peça foi pensada para proporcionar liberdade, praticidade e beleza no seu dia a dia.</p>"
+            "content": "<p>A produção é 100% local, o que nos permite manter um alto padrão de qualidade e contribuir para a economia da nossa região. Além disso, estamos engajados em um projeto social que visa promover a valorização das pessoas envolvidas na nossa cadeia de produção, com a intenção de criar um impacto positivo tanto na moda quanto na sociedade.</p>"
           }
         }
       },
@@ -105,14 +105,14 @@
         "heading_q8hV3e": {
           "type": "heading",
           "settings": {
-            "text": "Produção",
+            "text": "Tecidos",
             "heading_tag": "h1"
           }
         },
         "richtext_RbNJKa": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A produção é 100% local, o que nos permite manter um alto padrão de qualidade e contribuir para a economia da nossa região. Além disso, estamos engajados em um projeto social que visa promover a valorização das pessoas envolvidas na nossa cadeia de produção, com a intenção de criar um impacto positivo tanto na moda quanto na sociedade.</p>"
+            "content": "<p>Gaze de algodão; <br/>Cambraia de algodão; <br/>Cambraia de linho; <br/>Viscose <br/>Modal <br/>Sarja <br/>Tecidos sustentáveis</p>"
           }
         }
       },
@@ -139,14 +139,14 @@
         "heading_HGkT7F": {
           "type": "heading",
           "settings": {
-            "text": "Tecidos",
+            "text": "Convite ao mar Lote",
             "heading_tag": "h1"
           }
         },
         "richtext_pMM4wR": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Gaze de algodão; <br/>Cambraia de algodão; <br/>Cambraia de linho; <br/>Viscose <br/>Modal <br/>Sarja <br/>Tecidos sustentáveis</p>"
+            "content": "<p>A Lote é mais do que moda. É um convite para que você se conecte com o que tem de mais genuíno e volte às suas raízes, explorando seu interior e sua autenticidade.</p>"
           }
         }
       },
@@ -166,38 +166,6 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
-    },
-    "image_with_text_cjy4VH": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_DpxHdk": {
-          "type": "heading",
-          "settings": {
-            "text": "Convite ao mar Lote:",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_zUyUrF": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>A Lote é mais do que moda. É um convite para que você se conecte com o que tem de mais genuíno e volte às suas raízes, explorando seu interior e sua autenticidade.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DpxHdk",
-        "richtext_zUyUrF"
-      ],
-      "custom_css": [
-        "img {border-radius: 4%; margin-left: 3%;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "sm",
-        "remove_vertical_spacing": false
-      }
     }
   },
   "order": [
@@ -206,7 +174,6 @@
     "main",
     "image_with_text_inD4LL",
     "image_with_text_kxCWjE",
-    "image_with_text_qWJjbQ",
-    "image_with_text_cjy4VH"
+    "image_with_text_qWJjbQ"
   ]
 }
