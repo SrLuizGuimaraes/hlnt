@@ -87,7 +87,8 @@
         "richtext_YYzLWg"
       ],
       "custom_css": [
-        "img {border-radius: 4%; margin-left: 3%;}"
+        "img {border-radius: 4%; margin-left: 3%;}",
+        "image-with-text{margin-bottom:5%;}"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -121,7 +122,8 @@
         "richtext_RbNJKa"
       ],
       "custom_css": [
-        "img {border-radius: 4%; margin-left: 3%;}"
+        "img {border-radius: 4%; margin-left: 3%;}",
+        "image-with-text {margin-bottom: 5%;}"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -155,7 +157,8 @@
         "richtext_pMM4wR"
       ],
       "custom_css": [
-        "img {border-radius: 4%; margin-left: 3%;}"
+        "img {border-radius: 4%; margin-left: 3%;}",
+        "image-with-text {margin-bottom: 5%;}"
       ],
       "settings": {
         "separate_section_with_border": true,
