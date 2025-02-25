@@ -283,33 +283,28 @@
     "image_with_text_zKMDkf": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_gqd4UV": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_LpjTqH": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "Sobre Nós",
             "heading_tag": "h1"
           }
         },
         "richtext_VF499U": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>A Lote é uma marca que acredita na moda descomplicada, mas cheia de propósito. Comandada por Janaina Miglio, nossa missão é criar peças que traduzam a espontaneidade da vida cotidiana, sem abrir mão da autenticidade.<br/><br/>Cada peça foi pensada para proporcionar liberdade, praticidade e beleza no seu dia a dia.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_gqd4UV",
         "heading_LpjTqH",
         "richtext_VF499U"
       ],
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/Banner_Lote_Sobre_Nos.jpg",
+        "mobile_image": "shopify://shop_images/Banner_site_Lote_mobile_ca66a94e-06e9-49fd-9a6b-531b07d96c53.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
