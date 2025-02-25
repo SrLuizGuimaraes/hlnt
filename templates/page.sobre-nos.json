@@ -121,14 +121,14 @@
         "heading_HGkT7F": {
           "type": "heading",
           "settings": {
-            "text": "Tecidos e bordados<strong>: </strong>",
+            "text": "Tecidos",
             "heading_tag": "h1"
           }
         },
         "richtext_pMM4wR": {
           "type": "richtext",
           "settings": {
-            "content": "<ul><li>Gaze de algodão; </li><li>Cambraia de algodão; </li><li>Cambraia de linho; </li><li>Viscose </li><li>Modal </li><li>Sarja </li><li>Tecidos sustentáveis </li></ul>"
+            "content": "<p>Gaze de algodão; <br/>Cambraia de algodão; <br/>Cambraia de linho; <br/>Viscose <br/>Modal <br/>Sarja <br/>Tecidos sustentáveis</p>"
           }
         }
       },
