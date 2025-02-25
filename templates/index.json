@@ -247,6 +247,39 @@
         "subheading": ""
       }
     },
+    "featured_collections_hY9zWP": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_bB6UPA": {
+          "type": "collection",
+          "settings": {
+            "collection": "saldo-1",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "Explore mais"
+          }
+        }
+      },
+      "block_order": [
+        "collection_bB6UPA"
+      ],
+      "custom_css": [
+        ".price-list {display: none;}",
+        ".h2 {display: ;}",
+        ".button {background-color: white;}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "image_with_text_zKMDkf": {
       "type": "image-with-text",
       "blocks": {
@@ -289,6 +322,7 @@
     "collection_list_LNQHQ7",
     "featured_collections_Yk6KQG",
     "featured_collections_y6X3a9",
+    "featured_collections_hY9zWP",
     "image_with_text_zKMDkf"
   ]
 }
