@@ -73,7 +73,7 @@
       ],
       "settings": {
         "allow_transparent_header": true,
-        "show_next_section_button": true,
+        "show_next_section_button": false,
         "media_size": "auto",
         "autoplay": true,
         "autoplay_pause_on_video": true,
