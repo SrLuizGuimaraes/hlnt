@@ -365,6 +365,9 @@
         "richtext_VF499U",
         "button_znaGjb"
       ],
+      "custom_css": [
+        "{margin-bottom:5px;}"
+      ],
       "settings": {
         "separate_section_with_border": false,
         "image": "shopify://shop_images/Banner_Lote_Sobre_Nos.jpg",
