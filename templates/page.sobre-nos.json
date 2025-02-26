@@ -98,7 +98,6 @@
         "button_QLAjTA"
       ],
       "custom_css": [
-        "img {border-radius: 4%; margin-left: 3%;}",
         "image-with-text {margin-bottom: 5%;}"
       ],
       "settings": {
@@ -144,7 +143,6 @@
         "button_GUGCyr"
       ],
       "custom_css": [
-        "img {border-radius: 4%; margin-left: 3%;}",
         "image-with-text {margin-bottom: 5%;}"
       ],
       "settings": {
@@ -189,10 +187,7 @@
         "richtext_pMM4wR",
         "button_zRBHRM"
       ],
-      "custom_css": [
-        "img {border-radius: 4%; margin-left: 3%;}",
-        "image-with-text {margin-bottom: 5%;}"
-      ],
+      "custom_css": [],
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/03.png",
