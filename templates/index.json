@@ -374,6 +374,31 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "174057468455f93cc4": {
+      "type": "apps",
+      "blocks": {
+        "nitro_lookbook_lookbook_block_LaznwK": {
+          "type": "shopify://apps/nitro-lookbook/blocks/lookbook-block/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
+          "settings": {
+            "lookbook_id": "",
+            "heading": "",
+            "sub_heading": "",
+            "heading_font_size": "1.2",
+            "heading_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "nitro_lookbook_lookbook_block_LaznwK"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
@@ -382,6 +407,7 @@
     "featured_collections_Yk6KQG",
     "featured_collections_y6X3a9",
     "media_grid_UHAF4y",
-    "image_with_text_zKMDkf"
+    "image_with_text_zKMDkf",
+    "174057468455f93cc4"
   ]
 }
