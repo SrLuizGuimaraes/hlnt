@@ -169,7 +169,7 @@
       ],
       "settings": {
         "separate_section_with_border": false,
-        "image_size": "auto",
+        "image_size": "md",
         "show_text_outside": false,
         "space_items": false,
         "stack_collections": true,
