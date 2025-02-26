@@ -43,10 +43,10 @@
         "show_sort_by": true,
         "show_filters": true,
         "show_results_count": false,
-        "show_filter_group_name": false,
+        "show_filter_group_name": true,
         "show_empty_filter_values": false,
         "show_filter_values_count": true,
-        "show_color_swatch": false,
+        "show_color_swatch": true,
         "open_filters_by_default": false
       }
     }
