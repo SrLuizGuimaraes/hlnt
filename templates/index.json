@@ -169,9 +169,9 @@
       ],
       "settings": {
         "separate_section_with_border": false,
-        "image_size": "md",
+        "image_size": "auto",
         "show_text_outside": false,
-        "space_items": false,
+        "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 2,
         "subheading": "",
