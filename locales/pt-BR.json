@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Página {{ page }}",
@@ -107,7 +107,7 @@
       "view_in_space": "Veja em seu ambiente",
       "taxes_included": "Tributo incluído.",
       "taxes_excluded": "Tributo excluído.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frete<\/a> calculado no checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frete</a> calculado no checkout",
       "size_chart": "Guia de medidas",
       "available_colors_count": {
         "one": "{{ count }} cor disponível",
@@ -468,6 +468,26 @@
     "shop_the_look": {
       "view_products": "Ver produtos",
       "view_product": "Ver produto"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "errors": {
+          "buyer_identity": {
+            "company_purchase_permission_required": "O cliente não tem permissão para fazer pedidos da empresa.",
+            "personal_order_not_allowed": "Pedidos pessoais não são permitidos nesta loja."
+          }
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "shop_ads": {
+      "subtitle": "Disponível por tempo limitado",
+      "button": "Explorar na loja",
+      "previous_button": "Anterior",
+      "next_button": "Próximo"
     }
   }
 }
