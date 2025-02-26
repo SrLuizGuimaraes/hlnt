@@ -85,11 +85,11 @@
     "collection_list_LNQHQ7": {
       "type": "collection-list",
       "blocks": {
-        "collection_gJ3gV7": {
+        "collection_NgLMYY": {
           "type": "collection",
           "settings": {
-            "collection": "conjuntos",
-            "image": "shopify://shop_images/1_548860fe-641b-4450-8114-14dc09261511.jpg",
+            "collection": "vestidos",
+            "image": "shopify://shop_images/3_92501fdc-f94d-48eb-a2a7-55fd291f57f7.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -103,11 +103,11 @@
             "button_text_color": ""
           }
         },
-        "collection_NgLMYY": {
+        "collection_gJ3gV7": {
           "type": "collection",
           "settings": {
-            "collection": "vestidos",
-            "image": "shopify://shop_images/3_92501fdc-f94d-48eb-a2a7-55fd291f57f7.jpg",
+            "collection": "conjuntos",
+            "image": "shopify://shop_images/1_548860fe-641b-4450-8114-14dc09261511.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -159,8 +159,8 @@
         }
       },
       "block_order": [
-        "collection_gJ3gV7",
         "collection_NgLMYY",
+        "collection_gJ3gV7",
         "collection_mT6EXe",
         "collection_pUHqGP"
       ],
@@ -220,7 +220,7 @@
         "collection_xY3wWr": {
           "type": "collection",
           "settings": {
-            "collection": "conjuntos",
+            "collection": "vestidos",
             "products_count": 8,
             "title": "",
             "link_url": "",
@@ -238,39 +238,6 @@
       ],
       "settings": {
         "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "horizontal_spacing_factor": 0.2,
-        "vertical_spacing_factor": 0.2,
-        "subheading": ""
-      }
-    },
-    "featured_collections_hY9zWP": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_bB6UPA": {
-          "type": "collection",
-          "settings": {
-            "collection": "saldo-1",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "Explore mais"
-          }
-        }
-      },
-      "block_order": [
-        "collection_bB6UPA"
-      ],
-      "custom_css": [
-        ".price-list {display: none;}",
-        ".h2 {display: ;}",
-        ".button {background-color: white;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
@@ -413,7 +380,6 @@
     "collection_list_LNQHQ7",
     "featured_collections_Yk6KQG",
     "featured_collections_y6X3a9",
-    "featured_collections_hY9zWP",
     "media_grid_UHAF4y",
     "image_with_text_zKMDkf"
   ]
