@@ -380,11 +380,22 @@
           "settings": {
             "content": "<p>A Lote é uma marca que acredita na moda descomplicada, mas cheia de propósito. Comandada por Janaina Miglio, nossa missão é criar peças que traduzam a espontaneidade da vida cotidiana, sem abrir mão da autenticidade.<br/><br/>Cada peça foi pensada para proporcionar liberdade, praticidade e beleza no seu dia a dia.</p>"
           }
+        },
+        "button_znaGjb": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "saiba mais",
+            "url": "shopify://pages/sobre-nos",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_LpjTqH",
-        "richtext_VF499U"
+        "richtext_VF499U",
+        "button_znaGjb"
       ],
       "settings": {
         "separate_section_with_border": true,
