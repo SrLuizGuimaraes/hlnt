@@ -166,11 +166,11 @@
       ],
       "custom_css": [
         ".button {color: white; background-color: trans !important; border: none; border-color: none; background-image: none;}",
-        "@media (max-width: 699px) {.collection-list {display: flex; flex-wrap: wrap; gap: 8px; /* Espaçamento entre os itens */ justify-content: space-between; /* Garante a distribuição uniforme */ } .collection-card {width: calc(50% - 4px); /* Divide em duas colunas e compensa o gap */ box-sizing: border-box; }}"
+        "@media (max-width: 699px) {.collection-list {display: flex; flex-wrap: wrap; justify-content: center; /* Centraliza os itens */ gap: 0px; } .collection-card {flex: 0 1 calc(50% - 10px) !important; /* Garante que cada item ocupe 50% do espaço disponível */ max-width: calc(50% - 10px) !important; box-sizing: border-box; }}"
       ],
       "settings": {
         "separate_section_with_border": false,
-        "image_size": "auto",
+        "image_size": "sm",
         "show_text_outside": false,
         "space_items": false,
         "stack_collections": true,
