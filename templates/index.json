@@ -366,7 +366,7 @@
         "button_znaGjb"
       ],
       "custom_css": [
-        "image-with-text {margin-bottom: 10%;}"
+        "image-with-text {margin-bottom: 25%;}"
       ],
       "settings": {
         "separate_section_with_border": false,
