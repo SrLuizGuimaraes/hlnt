@@ -166,7 +166,7 @@
       ],
       "custom_css": [
         ".button {color: white; background-color: trans !important; border: none; border-color: none; background-image: none;}",
-        "@media (max-width: 699px) {.collection-list {display: flex; flex-wrap: wrap; justify-content: space-between; /* Distribui os itens igualmente */ } .collection-card {width: 50%; /* Exatamente metade da largura */ box-sizing: border-box; /* Evita que padding/bordas quebrem o layout */ display: flex; justify-content: center; align-items: center; }}"
+        "@media (max-width: 699px) {.collection-list {display: flex; flex-wrap: wrap; gap: 8px; /* Espaçamento entre os itens */ justify-content: space-between; /* Garante a distribuição uniforme */ } .collection-card {width: calc(50% - 4px); /* Divide em duas colunas e compensa o gap */ box-sizing: border-box; }}"
       ],
       "settings": {
         "separate_section_with_border": false,
