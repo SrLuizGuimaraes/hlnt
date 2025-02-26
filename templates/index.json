@@ -166,7 +166,7 @@
       ],
       "custom_css": [
         ".button {color: white; background-color: trans !important; border: none; border-color: none; background-image: none;}",
-        "@media (max-width: 699px) {.collection-list {display: flex; flex-wrap: wrap; justify-content: center; /* Centraliza os itens */ gap: 0px; } .collection-card {flex: 0 1 calc(50% - 10px) !important; /* Garante que cada item ocupe 50% do espaço disponível */ max-width: calc(50% - 10px) !important; box-sizing: border-box; }}"
+        "@media (max-width: 699px) {.collection-list {display: flex; flex-wrap: wrap; justify-content: center; gap: 0px; /* Remove o espaço entre os itens */ padding: 0; margin: 0; } .collection-card {flex: 0 1 50% !important; /* Garante que cada item ocupe exatamente 50% */ max-width: 50% !important; box-sizing: border-box; padding: 0; margin: 0; } .collection-card img {width: 100%; height: auto; display: block; /* Remove espaços em branco abaixo das imagens */ }}"
       ],
       "settings": {
         "separate_section_with_border": false,
