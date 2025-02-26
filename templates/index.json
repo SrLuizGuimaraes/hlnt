@@ -168,10 +168,10 @@
         ".button {color: white; background-color: trans !important; border: none; border-color: none; background-image: none;}"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "sm",
         "show_text_outside": false,
-        "space_items": false,
+        "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 2,
         "subheading": "",
