@@ -365,7 +365,7 @@
         "button_znaGjb"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image": "shopify://shop_images/Banner_Lote_Sobre_Nos.jpg",
         "mobile_image": "shopify://shop_images/Banner_site_Lote_mobile_ca66a94e-06e9-49fd-9a6b-531b07d96c53.jpg",
         "reveal_on_scroll": true,
