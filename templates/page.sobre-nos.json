@@ -80,11 +80,22 @@
           "settings": {
             "content": "<p>A produção é 100% local, o que nos permite manter um alto padrão de qualidade e contribuir para a economia da nossa região. Além disso, estamos engajados em um projeto social que visa promover a valorização das pessoas envolvidas na nossa cadeia de produção, com a intenção de criar um impacto positivo tanto na moda quanto na sociedade.</p>"
           }
+        },
+        "button_QLAjTA": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "Conheça nossos produtos",
+            "url": "shopify://collections/all",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_iCxzxg",
-        "richtext_YYzLWg"
+        "richtext_YYzLWg",
+        "button_QLAjTA"
       ],
       "custom_css": [
         "img {border-radius: 4%; margin-left: 3%;}",
@@ -115,11 +126,22 @@
           "settings": {
             "content": "<p>Tecidos que contam histórias<br/>Na Lote, cada tecido é escolhido com carinho, pensando no toque, no movimento e no conforto que proporciona. Buscamos materiais que trazem leveza ao vestir e carregam texturas que acrescentam charme a cada peça:<br/>- Cambraia de algodão<br/>- Tecidos sustentáveis<br/>- Gaze de algodão<br/>- Cambraia de linho<br/>- Modal<br/>- Sarja<br/><br/>Entre eles, alguns se tornaram verdadeiros símbolos da Lote.</p>"
           }
+        },
+        "button_GUGCyr": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "Conheça nossos produtos",
+            "url": "shopify://collections/all",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_q8hV3e",
-        "richtext_RbNJKa"
+        "richtext_RbNJKa",
+        "button_GUGCyr"
       ],
       "custom_css": [
         "img {border-radius: 4%; margin-left: 3%;}",
@@ -150,11 +172,22 @@
           "settings": {
             "content": "<p>A Lote é mais do que moda. É um convite para que você se conecte com o que tem de mais genuíno e volte às suas raízes, explorando seu interior e sua autenticidade.</p>"
           }
+        },
+        "button_zRBHRM": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "Conheça nossos produtos",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_HGkT7F",
-        "richtext_pMM4wR"
+        "richtext_pMM4wR",
+        "button_zRBHRM"
       ],
       "custom_css": [
         "img {border-radius: 4%; margin-left: 3%;}",
