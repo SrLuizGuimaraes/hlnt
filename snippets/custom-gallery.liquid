@@ -4,7 +4,7 @@
   <div class="gallery-wrapper">
     {% for i in (1..10) %}
       <div class="gallery-item {% if forloop.index == 5 %}central{% endif %}">
-        <img src="{{ 'URL_DA_IMAGEM_' | append: forloop.index }}" alt="Imagem {{ forloop.index }}">
+        <img src="{{ 'imagem-' | append: forloop.index | append: '.jpg' | asset_url }}" alt="Imagem {{ forloop.index }}">
       </div>
     {% endfor %}
   </div>
@@ -20,7 +20,8 @@ const totalItems = items.length;
 
 function showGallery(index) {
   const wrapper = document.querySelector('.gallery-wrapper');
-  wrapper.style.transform = `translateX(-${index * 220}px)`;
+  const itemWidth = items[0].offsetWidth + 20; // Largura do item + margem
+  wrapper.style.transform = `translateX(-${index * itemWidth}px)`;
   items.forEach((item, i) => {
     item.classList.remove('central');
     if (i === index) {
