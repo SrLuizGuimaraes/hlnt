@@ -50,14 +50,6 @@
         "type": "shopify://apps/nitro-lookbook/blocks/app-embed/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
         "disabled": false,
         "settings": {}
-      },
-      "16936711665464183970": {
-        "type": "shopify://apps/slider-revolution/blocks/app-embed/d2c2325b-ecb9-42b8-a0b0-ca2ffb6e3203",
-        "disabled": false,
-        "settings": {
-          "enable_fontawesome": true,
-          "enable_stroke": true
-        }
       }
     }
   },

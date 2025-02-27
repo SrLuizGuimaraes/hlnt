@@ -321,7 +321,7 @@
         ".media-grid:not(:has(img)) {display: none; /* Oculta o elemento se não houver imagem */}"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "desktop_row_height": 290,
         "mobile_row_height": 180,
         "section_width": "lg",
@@ -353,7 +353,7 @@
         "nitro_lookbook_lookbook_block_LaznwK"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
