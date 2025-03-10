@@ -65,7 +65,7 @@
             {%- endif -%}
           {%- endcapture -%}
 
-          <button type="submit" name="checkout" class="button w-full" >Checkout<span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span></button>
+          <button type="button" onclick="yampiClick()" class="button w-full" >Checkout<span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span></button>
           
         {%- endif -%}
       </div>
