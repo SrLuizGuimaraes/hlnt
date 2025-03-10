@@ -65,14 +65,20 @@
             {%- endif -%}
           {%- endcapture -%}
 
-          <button type="submit" id="CartDrawer-Checkout" name="checkout" form="CartDrawer-Form" class="button w-full" >Checkout<span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span></button>
+          <button onclick='JavaScript:timedRedirect()' type="submit" id="CartDrawer-Checkout" name="checkout" form="CartDrawer-Form" class="button w-full" >Checkout<span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span></button>
           
         {%- endif -%}
       </div>
     </form>
   {%- endif -%}
 </cart-drawer>
-
+<script>
+redirectTime = "500";
+redirectURL = "/cart";
+function timedRedirect() {
+	setTimeout("location.href = redirectURL;",redirectTime);
+}
+</script>
 {% schema %}
 {
   "name": "t:sections.cart_drawer.name",
