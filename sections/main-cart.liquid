@@ -139,9 +139,17 @@
                   </div>
                 {% endif %}
 
-               <button type="submit" class="cart__checkout-button-1 button-checkout" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
+                <noscript>
+                  {%- assign update_button = 'cart.general.update_cart' | t -%}
+                  {%- render 'button', type: 'submit', content: update_button, style: 'outline' -%}
+                </noscript>
+
+                <button type="submit" class="cart__checkout-button-1 button-checkout" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
                 {{ 'sections.cart.checkout' | t }}
               </button>
+
+                {%- assign checkout_button = 'cart.general.checkout' | t -%}
+                {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout' -%}
               </div>
             </div>
           </div>
