@@ -145,7 +145,7 @@
                 </noscript>
 
                 {%- assign checkout_button = 'cart.general.checkout' | t -%}
-                <button type="button" class="button" onclick="yampiClick()">Checkout</button>
+                {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout' -%}
               </div>
             </div>
           </div>
