@@ -95,7 +95,7 @@
       {%- sections 'footer-group' -%}
     {%- endif -%}
    <!-- Don't Remove this code. CartPanda App code. -->
-{% capture cartX_snippet_content %}{% include 'cartxCheckoutSnippet' %}{% endcapture %} {% unless cartX_snippet_content contains 'Liquid error' %} {% include 'cartxCheckoutSnippet' %} {% endunless %}
+{%- comment -%} {% capture cartX_snippet_content %}{% include 'cartxCheckoutSnippet' %}{% endcapture %} {% unless cartX_snippet_content contains 'Liquid error' %} {% include 'cartxCheckoutSnippet' %} {% endunless %} {%- endcomment -%}
 <!-- Don't Remove this code. CaCartPandartX App code. -->
 </body>
 </html>
