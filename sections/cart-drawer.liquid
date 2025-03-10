@@ -65,8 +65,7 @@
             {%- endif -%}
           {%- endcapture -%}
 
-          <button type="submit" id="CartDrawer-Checkout" name="checkout" form="CartDrawer-Form" class="button w-full" >Checkout<span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span></button>
-          
+{%- render 'button', type: 'submit', content: checkout_label, name: 'checkout', size: 'xl' -%}          
         {%- endif -%}
       </div>
     </form>
