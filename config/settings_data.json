@@ -39,7 +39,7 @@
     "show_quick_buy": false,
     "show_sold_out_badge": false,
     "show_discount": false,
-    "cart_type": "page",
+    "cart_type": "drawer",
     "social_instagram": "https://www.instagram.com/lote_oficial/",
     "social_whatsapp": "https://api.whatsapp.com/send/?phone=5531995551983&text=Eii%2C+vim+pelo+site+e+preciso+mais+informa%C3%A7%C3%B5es.+Pode+me+ajudar%3F&type=phone_number&app_absent=0",
     "favicon": "shopify://shop_images/logo_branca.png",
