@@ -65,18 +65,7 @@
             {%- endif -%}
           {%- endcapture -%}
 
-        <button
-            type="submit"
-            id="CartDrawer-Checkout"
-            class="cart__checkout-button button"
-            name="checkout"
-            form="CartDrawer-Form"
-            {% if cart == empty %}
-              disabled
-            {% endif %}
-          >
-            {{ 'sections.cart.checkout' | t }}
-          </button>
+          <button type="button" onclick="yampiClick()" class="button w-full" >Checkout<span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span></button>
           
         {%- endif -%}
       </div>
