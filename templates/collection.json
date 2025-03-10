@@ -20,7 +20,7 @@
         "enable_parallax": true,
         "show_collection_title": false,
         "show_collection_description": true,
-        "show_breadcrumb": true,
+        "show_breadcrumb": false,
         "content_width": "xs",
         "background": "#000000",
         "text_color": "#ffffff",
