@@ -196,32 +196,10 @@
             "link_url": "",
             "link_text": "explore mais"
           }
-        },
-        "collection_WarTK8": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
-        "collection_g4CFUq": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
         }
       },
       "block_order": [
-        "collection_kJURLm",
-        "collection_WarTK8",
-        "collection_g4CFUq"
+        "collection_kJURLm"
       ],
       "custom_css": [
         ".price-list {display: none;}",
