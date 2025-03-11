@@ -473,7 +473,7 @@
   "shopify": {
     "checkout": {
       "general": {
-        "page_title": "Finalizar Compra",
+        "page_title": "Checkout",
         "map": {
           "cluster_title": {
             "many": "Cluster of {{number}} markers"
