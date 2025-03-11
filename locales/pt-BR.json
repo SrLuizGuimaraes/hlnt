@@ -108,7 +108,7 @@
       "added_to_cart": "Adicionado ao carrinho!",
       "sold_out_badge": "Esgotado",
       "on_sale_badge": "Promoção",
-      "discount_badge_html": "Economize {{ savings }}",
+      "discount_badge_html": " {{ savings }}",
       "sku": "SKU:",
       "variant": "Variante",
       "view_in_space": "Veja em seu ambiente",
