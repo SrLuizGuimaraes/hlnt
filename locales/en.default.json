@@ -739,6 +739,9 @@
         },
         "number_of_pickup_points_near_location": {
           "many": "%{count} pickup locations near your location"
+        },
+        "pickup_unavailable_banner_title": {
+          "many": "Your items are not available at the pickup points"
         }
       },
       "local_pickup": {
