@@ -53,7 +53,7 @@
             "hide_sold_out_variants": false,
             "selector_type": "block",
             "color_selector_type": "color",
-            "size_chart_page": ""
+            "size_chart_page": "{{ product.metafields.custom.medidas.value }}"
           }
         },
         "buy_buttons": {
