@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "frete_dinamico_titulo": "Calcular frete",
     "section_vertical_spacing": "md",
     "text_color": "#1c1c1c",
     "background": "#ffffff",
