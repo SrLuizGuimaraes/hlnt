@@ -189,6 +189,262 @@ Supported variables
 
           {%- when 'separator' -%}
             <hr>
+<style>
+  .td-frete-dinamico {
+    padding: 15px 10px;
+    {% if settings.frete_dinamico_borda %}border: solid 1px #e8e8e8;{% endif %}
+    border-radius: 10px;
+    margin: {{ settings.frete_dinamico_spacetop }}px 0 {{ settings.frete_dinamico_spacebottom }}px;
+  }
+  .td-frete-dinamico-titulo {
+    text-align: center; margin-bottom: 10px;font-size: 17px;
+    font-weight: 600;
+
+  }
+  #td-frete-dinamico-cep {
+    height: 40px;
+    font-size: 15px;
+    padding: 0 1rem;
+    width: 50%;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  .td-frete-dinamico-content {
+    display: flex;
+    gap: 10px;
+  }
+  #td-frete-dinamico-btn {
+    height: 40px; padding: .5rem;width: 50%;
+    background: {{ settings.frete_dinamico_btn }};
+    color:white;
+        border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 4px;
+  }
+  .td-frete-dinamico-result {
+    margin-top: 10px;
+  }
+  .td-frete-dinamico-location {
+        font-size: 13px;
+  }
+</style>
+<div class="td-frete-dinamico">
+  <div class="td-frete-dinamico-titulo">{{ settings.frete_dinamico_titulo }}</div>
+      <div class="td-frete-dinamico-content">
+        <input id="td-frete-dinamico-cep" type="text" placeholder="00000-000" autocomplete="CEP" wfd-id="id9">
+        <button id="td-frete-dinamico-btn" data-text="Calcular" onclick="generateShippingRates(this)">Calcular</button>
+      </div>
+      <div class="td-frete-dinamico-result">
+        <div id="frete-danger" class="alert alert-danger" role="alert" hidden="hidden"></div>
+        <div id="frete-aviso" class="alert alert-warning" role="alert" hidden="hidden"></div>
+        <div id="frete-sucesso" class="alert alert-success" role="alert" hidden="hidden"></div>
+      </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    window.generateShippingRates = async (btn) => {
+
+        const spinnerHtml = `
+          <div class="spinner-border spinner-border-sm" role="status" style="width: 1rem; height: 1rem">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        `;
+        btn.innerHTML = spinnerHtml;
+
+        const wrapper = document.querySelector('.td-frete-dinamico');
+        const zipInput = wrapper.querySelector('#td-frete-dinamico-cep');
+        const zip = zipInput.value;
+
+
+        wrapper.querySelector('#frete-danger').innerHTML = '';
+        wrapper.querySelector('#frete-danger').setAttribute('hidden', 'hidden');
+        wrapper.querySelector('#frete-aviso').innerHTML = '';
+        wrapper.querySelector('#frete-aviso').setAttribute('hidden', 'hidden');
+        wrapper.querySelector('#frete-sucesso').innerHTML = '';
+        wrapper.querySelector('#frete-sucesso').setAttribute('hidden', 'hidden');
+
+        const cepUnmasked = zip.replace(/\D/g, '');
+        const cepRegex = /^[0-9]{8}$/;
+
+        if (!cepRegex.test(cepUnmasked)) {
+            console.warn("Formato de CEP inválido");
+            wrapper.querySelector('#frete-aviso').innerHTML = `
+              <p class="mb-0">Formato de CEP Inválido.</p>
+            `;
+            wrapper.querySelector('#frete-aviso').removeAttribute('hidden');
+            btn.innerHTML = btn.dataset.text;
+            return;
+        }
+
+        try {
+            await tryCalculateShippingRates(btn, wrapper, cepUnmasked);
+        } catch (error) {
+            btn.innerHTML = btn.dataset.text;
+        }
+    };
+
+
+    async function tryCalculateShippingRates(btn, wrapper, cepUnmasked) {
+        const country = 'BR';
+        const brasilApiUrl = `https://brasilapi.com.br/api/cep/v1/${cepUnmasked}`;
+
+        let data;
+        try {
+            const response = await fetch(brasilApiUrl);
+
+            if (response.ok) {
+                data = await response.json();
+            } else {
+                throw new Error("Erro ao buscar CEP na BrasilAPI");
+            }
+        } catch (error) {
+            wrapper.querySelector('#frete-aviso').innerHTML = `
+              <p class="mb-0">CEP não encontrado.</p>
+            `;
+            wrapper.querySelector('#frete-aviso').removeAttribute('hidden');
+            btn.innerHTML = btn.dataset.text;
+            return;
+        }
+
+        const formattedLocation = formatLocation(data);
+        wrapper.querySelector('#frete-sucesso').innerHTML = `
+          <p class="td-frete-dinamico-location"><strong>${formattedLocation}</strong></p>
+        `;
+
+        const province = data.state;
+
+
+        const cartResponse = await fetch('/cart.js', { method: 'GET' });
+        const cartData = await cartResponse.json();
+
+        const originalItems = cartData.items || [];
+        const hasItems = originalItems.length > 0;
+
+        if (hasItems) {
+            const backupCart = originalItems.map(item => ({
+                id: item.variant_id,
+                quantity: item.quantity,
+            }));
+
+            await fetch('/cart/clear.js', { method: 'POST' });
+
+            await addTemporaryProduct();
+
+            await calculateShippingRates(cepUnmasked, country, province, wrapper);
+
+            await fetch('/cart/clear.js', { method: 'POST' });
+
+            for (const item of backupCart) {
+                await fetch('/cart/add.js', {
+                    method: 'POST',
+                    body: JSON.stringify({ id: item.id, quantity: item.quantity }),
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                });
+            }
+        } else {
+            await addTemporaryProduct();
+
+            await calculateShippingRates(cepUnmasked, country, province, wrapper);
+
+            await fetch('/cart/clear.js', { method: 'POST' });
+        }
+
+        btn.innerHTML = btn.dataset.text;
+    }
+
+
+    async function addTemporaryProduct() {
+      const formElement = document.querySelector('form[action*="/cart/add"]');
+      const formData = getFormData(formElement);
+
+      await fetch('/cart/add.js', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Requested-With': 'XMLHttpRequest',
+        },
+      });
+    }
+
+
+    async function calculateShippingRates(cepUnmasked, country, province, wrapper) {
+      const ratesUrl = `/cart/shipping_rates.json?shipping_address[zip]=${cepUnmasked}&shipping_address[country]=${country}&shipping_address[province]=${province}`;
+
+      const ratesResponse = await fetch(ratesUrl, { method: 'GET' });
+      const ratesData = await ratesResponse.json();
+
+      if (ratesResponse.ok && ratesData.shipping_rates.length > 0) {
+        let ratesHtml = '';
+        ratesData.shipping_rates.forEach(rate => {
+          const formattedPrice =
+            rate.price === 0 ? 'Grátis' : formatCurrency(rate.price);
+          const deliveryDays =
+            rate.delivery_days && rate.delivery_days.length > 0
+              ? formatDeliveryDays(rate.delivery_days)
+              : '';
+          ratesHtml += `<div><strong>- ${rate.name}</strong>: ${formattedPrice} ${deliveryDays}</div>`;
+        });
+        wrapper.querySelector('#frete-sucesso').innerHTML += `${ratesHtml}`;
+        wrapper.querySelector('#frete-sucesso').removeAttribute('hidden');
+      } else {
+        wrapper.querySelector('#frete-aviso').innerHTML = `
+          <p class="mb-0">Não foi possível encontrar opções de frete para o CEP informado.</p>
+        `;
+        wrapper.querySelector('#frete-aviso').removeAttribute('hidden');
+      }
+    }
+
+
+    function formatLocation(data) {
+      return `${data.city} - ${data.neighborhood} - ${data.street}`;
+    }
+
+
+    function formatDeliveryDays(deliveryDays) {
+      const lastDay = deliveryDays[deliveryDays.length - 1];
+      return lastDay === 1
+        ? '- 1 dia útil'
+        : `- ${lastDay} dias úteis`;
+    }
+
+
+    function formatCurrency(value) {
+      return new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+      }).format(value);
+    }
+
+
+    function getFormData(form) {
+      const formData = new FormData(form);
+      const object = {};
+      formData.forEach((value, key) => {
+        object[key] = value;
+      });
+      return object;
+    }
+
+
+    const zipInput = document.querySelector('#td-frete-dinamico-cep');
+    zipInput.addEventListener('input', function (e) {
+      const value = e.target.value.replace(/\D/g, '');
+      e.target.value =
+        value.length > 5
+          ? `${value.slice(0, 5)}-${value.slice(5, 8)}`
+          : value;
+    });
+  });
+</script>
+
 
           {%- when 'description' -%}
             {%- if product == blank -%}
