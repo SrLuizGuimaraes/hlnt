@@ -10,6 +10,7 @@
 {
   "current": {
     "frete_dinamico_titulo": "Calcular frete",
+    "frete_dinamico_borda": false,
     "section_vertical_spacing": "md",
     "text_color": "#1c1c1c",
     "background": "#ffffff",
@@ -30,6 +31,7 @@
     "heading_letter_spacing": 18,
     "text_font": "montserrat_n3",
     "text_font_size_desktop": 14,
+    "button_text_font": "body",
     "button_letter_spacing": 18,
     "currency_code_enabled": false,
     "stagger_products_apparition": true,
