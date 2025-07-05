@@ -46,8 +46,8 @@
     "show_discount": true,
     "discount_mode": "percentage",
     "cart_type": "page",
-    "social_instagram": "",
-    "social_whatsapp": "",
+    "social_instagram": "https://www.instagram.com/helenita.oficial?igsh=NzU2M3FpbHYycW12",
+    "social_whatsapp": "https://wa.me/5531999918631",
     "favicon": "shopify://shop_images/fivelote.png",
     "heading_color": "#1c1c1c",
     "content_for_index": []
