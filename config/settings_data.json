@@ -45,8 +45,8 @@
     "show_discount": true,
     "discount_mode": "percentage",
     "cart_type": "page",
-    "social_instagram": "https://www.instagram.com/lote_oficial/",
-    "social_whatsapp": "https://api.whatsapp.com/send/?phone=5531995551983&text=Eii%2C+vim+pelo+site+e+preciso+mais+informa%C3%A7%C3%B5es.+Pode+me+ajudar%3F&type=phone_number&app_absent=0",
+    "social_instagram": "",
+    "social_whatsapp": "",
     "favicon": "shopify://shop_images/fivelote.png",
     "heading_color": "#1c1c1c",
     "content_for_index": []
