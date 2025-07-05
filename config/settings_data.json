@@ -37,7 +37,7 @@
     "stagger_products_apparition": true,
     "round_color_swatches": true,
     "color_swatch_config": "Prata: #C0C0C0\nDourado: #FFD700",
-    "product_card_text_font": "heading",
+    "product_card_text_font": "body",
     "product_color_display": "hide",
     "show_product_rating": false,
     "show_quick_buy": false,
