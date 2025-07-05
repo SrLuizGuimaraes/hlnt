@@ -429,7 +429,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     function formatDeliveryDays(deliveryDays) {
-      const lastDay = deliveryDays[deliveryDays.length - 1] ;  // aqui da pra colocar prazo a mais ou menos no codigo
+      const lastDay = deliveryDays[deliveryDays.length - 0] ;  // aqui da pra colocar prazo a mais ou menos no codigo
       return lastDay === 1
         ? '- 1 dia útil'
         : `- ${lastDay} dias úteis`;
