@@ -10,6 +10,7 @@
 {
   "current": {
     "frete_dinamico_titulo": "Calcular frete",
+    "frete_dinamico_btn": "#6f1c29",
     "frete_dinamico_borda": false,
     "section_vertical_spacing": "md",
     "text_color": "#1c1c1c",
