@@ -24,14 +24,13 @@
         "links_7jbzp7": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "rodap",
             "show_menu_title": false
           }
         },
         "image_qfnPYD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Logo_png_branco.png",
             "image_width": 150,
             "link": ""
           }
