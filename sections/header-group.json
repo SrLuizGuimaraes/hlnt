@@ -17,13 +17,13 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "enviamos para todo Brasil"
+            "text": "frete grátis a partir de R$499,00"
           }
         },
         "message_zFEHtc": {
           "type": "message",
           "settings": {
-            "text": "10%off usando cupom BEMVINDA"
+            "text": "10% na primeira compra cupom PRIMEIRACOMPRA"
           }
         }
       },
@@ -37,8 +37,8 @@
         "cycle_speed": 3,
         "desktop_font_size": 11,
         "mobile_font_size": 10,
-        "background": "#ffffff",
-        "text_color": "#000000"
+        "background": "#6f1c29",
+        "text_color": "#ffffff"
       }
     },
     "header": {
@@ -48,7 +48,7 @@
         "enable_sticky": false,
         "show_separation_border": false,
         "reduce_padding": true,
-        "logo": "shopify://shop_images/750a96e4-34f5-4e26-8a5c-8ebd470eb0aa.png",
+        "logo": "shopify://shop_images/logo3.png",
         "logo_max_width": 110,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
@@ -64,7 +64,7 @@
         "show_country_flag": false,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/51bc645f-bfd1-4814-9aa9-6127223363c7.png"
+        "transparent_logo": "shopify://shop_images/logo3.png"
       }
     }
   },

@@ -19,7 +19,7 @@
     "error_color": "#cb2b2b",
     "header_background": "#ffffff",
     "header_text_color": "#000000",
-    "footer_background": "#1c1c1c",
+    "footer_background": "#6f1c29",
     "footer_text_color": "#ffffff",
     "primary_button_background": "#ffffff",
     "primary_button_text_color": "#000000",
@@ -49,14 +49,7 @@
     "social_whatsapp": "https://api.whatsapp.com/send/?phone=5531995551983&text=Eii%2C+vim+pelo+site+e+preciso+mais+informa%C3%A7%C3%B5es.+Pode+me+ajudar%3F&type=phone_number&app_absent=0",
     "favicon": "shopify://shop_images/fivelote.png",
     "heading_color": "#1c1c1c",
-    "content_for_index": [],
-    "blocks": {
-      "5824954802169832938": {
-        "type": "shopify://apps/nitro-lookbook/blocks/app-embed/cc1f7d0a-9bac-40f1-a181-859d84a3417f",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Allure": {
