@@ -62,7 +62,7 @@ Supported variables
             {%- if settings.discount_mode == 'percentage' -%}
               {%- assign savings = variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | round | append:  '%' -%}
             {%- else -%}
-              {%- capture savings -%}{{ variant.compare_at_price | minus: variant.price | money }}{%- endcapture -%}
+              {%- capture savings -%}Save { variant.compare_at_price | minus: variant.price | money }}{%- endcapture -%}
             {%- endif -%}
 
             <on-sale-badge {% if form_id != blank and is_variant_on_sale == false %}hidden{% endif %} {% if settings.show_discount %}discount-mode="{{ settings.discount_mode | escape }}"{% endif %} {% if form_id != blank %}form="{{ form_id }}"{% endif %} class="badge badge--on-sale">
