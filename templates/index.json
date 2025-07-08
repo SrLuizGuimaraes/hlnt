@@ -42,6 +42,8 @@
         "image_Wk4zGq": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/1_1.jpg",
+            "mobile_image": "shopify://shop_images/2_6a6b6e43-f349-4a22-b5ab-00a7d91f2d4d.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
