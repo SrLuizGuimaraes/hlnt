@@ -7693,3 +7693,8 @@ ul {
   display: -webkit-box;
   overflow: hidden;
 }
+
+body {
+  font-family: 'Poiret One', sans-serif !important;
+}
+
