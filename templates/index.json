@@ -319,10 +319,18 @@
             "text": "Elas Usam",
             "heading_tag": "h3"
           }
+        },
+        "heading_WfzmCG": {
+          "type": "heading",
+          "settings": {
+            "text": "instagram",
+            "heading_tag": "h3"
+          }
         }
       },
       "block_order": [
-        "heading_m89qMB"
+        "heading_m89qMB",
+        "heading_WfzmCG"
       ],
       "custom_css": [
         "{margin-top: -20px;}"
@@ -366,7 +374,7 @@
         "instafeed_app_block_4a9n8m": {
           "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "title": "Instagram",
+            "title": "",
             "title_color": "",
             "title_size_v2": 0,
             "alignment": "center",
