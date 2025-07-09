@@ -132,6 +132,9 @@
         "item_4DzJEW",
         "item_w4DVYg"
       ],
+      "custom_css": [
+        "{margin-top: -50px; margin-bottom: -50px;}"
+      ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "separate_section_with_border": false,
