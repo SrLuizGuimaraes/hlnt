@@ -72,7 +72,7 @@
         "image_Wk4zGq"
       ],
       "settings": {
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_next_section_button": false,
         "media_size": "fill",
         "autoplay": true,
