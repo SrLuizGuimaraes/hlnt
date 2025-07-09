@@ -7694,7 +7694,7 @@ ul {
   overflow: hidden;
 }
 
-h6 {
+h6, h1 {
   font-family: 'Poiret One', sans-serif !important;
 }
 
