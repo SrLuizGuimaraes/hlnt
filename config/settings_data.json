@@ -12,6 +12,7 @@
     "frete_dinamico_titulo": "Calcular frete",
     "frete_dinamico_btn": "#6f1c29",
     "frete_dinamico_borda": false,
+    "icon_stroke_width": 2,
     "section_vertical_spacing": "md",
     "text_color": "#1c1c1c",
     "background": "#ffffff",
