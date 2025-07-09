@@ -253,6 +253,65 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": true
       }
+    },
+    "text_with_icons_KgL8g4": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_VTaMbm": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Parcelamento de 5x sem juros",
+            "content": ""
+          }
+        },
+        "item_TRcayU": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Site seguro, compra tranquila",
+            "content": ""
+          }
+        },
+        "item_4DzJEW": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Garantia de 12 meses",
+            "content": ""
+          }
+        },
+        "item_w4DVYg": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Envio imediato para todo o brasil",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_VTaMbm",
+        "item_TRcayU",
+        "item_4DzJEW",
+        "item_w4DVYg"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
@@ -260,6 +319,7 @@
     "collection_list_LNQHQ7",
     "featured_collections_Yk6KQG",
     "featured_collections_y6X3a9",
-    "174057468455f93cc4"
+    "174057468455f93cc4",
+    "text_with_icons_KgL8g4"
   ]
 }
