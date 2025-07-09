@@ -91,8 +91,8 @@
             "icon": "picto-credit-card",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Parcelamento",
-            "content": "<p> 5x sem juros<br/><br/></p>"
+            "title": "Parcelamento de 5x sem juros",
+            "content": ""
           }
         },
         "item_TRcayU": {
@@ -101,8 +101,8 @@
             "icon": "picto-shield",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Segurança",
-            "content": "<p>Site seguro, compra tranquila</p>"
+            "title": "Site seguro, compra tranquila",
+            "content": ""
           }
         },
         "item_4DzJEW": {
@@ -111,8 +111,8 @@
             "icon": "picto-customer-support",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Confiabilidade",
-            "content": "<p>Garantia de 12 meses</p>"
+            "title": "Garantia de 12 meses",
+            "content": ""
           }
         },
         "item_w4DVYg": {
@@ -121,8 +121,8 @@
             "icon": "picto-delivery-truck",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Entrega Garantida",
-            "content": "<p>Envio imediato para todo o brasil</p>"
+            "title": "Envio imediato para todo o brasil",
+            "content": ""
           }
         }
       },
@@ -133,7 +133,7 @@
         "item_w4DVYg"
       ],
       "custom_css": [
-        "{margin-top: -50px; margin-bottom: -70px;}"
+        "{margin-top: -50px; margin-bottom: -65px;}"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
@@ -150,7 +150,8 @@
         "collection_NgLMYY": {
           "type": "collection",
           "settings": {
-            "collection": "aneis",
+            "collection": "colares",
+            "image": "shopify://shop_images/358.png",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -167,7 +168,8 @@
         "collection_gJ3gV7": {
           "type": "collection",
           "settings": {
-            "collection": "brincos",
+            "collection": "aneis",
+            "image": "shopify://shop_images/2.png",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -184,7 +186,8 @@
         "collection_mT6EXe": {
           "type": "collection",
           "settings": {
-            "collection": "prata-925",
+            "collection": "brincos",
+            "image": "shopify://shop_images/3.png",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -201,7 +204,8 @@
         "collection_pUHqGP": {
           "type": "collection",
           "settings": {
-            "collection": "colares",
+            "collection": "pulseiras",
+            "image": "shopify://shop_images/4.png",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
