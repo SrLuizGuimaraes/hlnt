@@ -264,7 +264,6 @@
         "collection_kJURLm"
       ],
       "custom_css": [
-        ".price-list {display: none;}",
         ".h2 {display: ;}",
         ".button {background-color: white;}"
       ],
