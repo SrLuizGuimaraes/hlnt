@@ -252,7 +252,7 @@
         "collection_kJURLm": {
           "type": "collection",
           "settings": {
-            "collection": "best-seller",
+            "collection": "mais-vendidos",
             "products_count": 8,
             "title": "Mais vendidos",
             "link_url": "",
@@ -285,7 +285,7 @@
         "collection_xY3wWr": {
           "type": "collection",
           "settings": {
-            "collection": "vestidos",
+            "collection": "novidades",
             "products_count": 8,
             "title": "",
             "link_url": "",
