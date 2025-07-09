@@ -89,8 +89,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-credit-card",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
+            "custom_icon": "shopify://shop_images/419.png",
+            "icon_width": 64,
+            "mobile_icon_width": 56,
             "title": "Parcelamento",
             "content": "<p>5x sem juros</p>"
           }
@@ -99,8 +100,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-shield",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
+            "custom_icon": "shopify://shop_images/420.png",
+            "icon_width": 64,
+            "mobile_icon_width": 56,
             "title": "segurança",
             "content": "<p>Site seguro, compra tranquila</p>"
           }
@@ -109,8 +111,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-customer-support",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
+            "custom_icon": "shopify://shop_images/421.png",
+            "icon_width": 64,
+            "mobile_icon_width": 56,
             "title": "confiabilidade",
             "content": "<p>Garantia de 12 meses</p>"
           }
@@ -119,8 +122,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-delivery-truck",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
+            "custom_icon": "shopify://shop_images/422.png",
+            "icon_width": 64,
+            "mobile_icon_width": 56,
             "title": "Entrega garantida",
             "content": "<p>Envio imediato para todo o brasil</p>"
           }
