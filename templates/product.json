@@ -29,7 +29,7 @@
           "settings": {
             "option_name": "Cor",
             "option_value_metafield": "custom.valor_variavel",
-            
+            "products": [],
             "color_selector_type": "color"
           }
         },
@@ -40,7 +40,7 @@
         "liquid_BtCgjd": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- INICIO - SCRIPT DE PARCELAMENTO SEM JUROS H2B --> \n<style>.parcelamento {font-size:14px;} .tabela {display: flex; justify-content: space-between; align-items: center; margin-top: 10px; margin-bottom: 10px;} .price {font-size: 20px !important;}</style>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n           \n<div>\n  <div class=\"tabela\">\n    <div><p class=\"parcelamento\"><i class=\"fa fa-credit-card\"></i> Em até 3x de <span style=\"font-size:20px; color: black;\"><b>{{ product.price | divided_by: 3| money }}</b></span> Sem Juros</p></div>\n  </div>\n</div>   \n<!-- FIM - SCRIPT DE PARCELAMENTO SEM JUROS H2B -->"
+            "liquid": "<!-- INICIO - SCRIPT DE PARCELAMENTO SEM JUROS H2B --> \n<style>.parcelamento {font-size:14px;} .tabela {display: flex; justify-content: space-between; align-items: center; margin-top: 10px; margin-bottom: 10px;} .price {font-size: 20px !important;}</style>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n           \n<div>\n  <div class=\"tabela\">\n    <div><p class=\"parcelamento\"><i class=\"fa fa-credit-card\"></i> Em até 5x de <span style=\"font-size:20px; color: black;\"><b>{{ product.price | divided_by: 5| money }}</b></span> Sem Juros</p></div>\n  </div>\n</div>   \n<!-- FIM - SCRIPT DE PARCELAMENTO SEM JUROS H2B -->"
           }
         },
         "quantity_selector": {
@@ -133,5 +133,8 @@
       }
     }
   },
-  "order": ["main", "related-products"]
+  "order": [
+    "main",
+    "related-products"
+  ]
 }
