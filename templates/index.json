@@ -319,18 +319,10 @@
             "text": "Elas Usam",
             "heading_tag": "h3"
           }
-        },
-        "heading_WfzmCG": {
-          "type": "heading",
-          "settings": {
-            "text": "instagram",
-            "heading_tag": "h3"
-          }
         }
       },
       "block_order": [
-        "heading_m89qMB",
-        "heading_WfzmCG"
+        "heading_m89qMB"
       ],
       "custom_css": [
         "{margin-top: -20px;}"
@@ -366,6 +358,28 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": true
+      }
+    },
+    "rich_text_HF7dCj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B8D47W": {
+          "type": "heading",
+          "settings": {
+            "text": "instagram",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B8D47W"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": true
       }
     },
     "17520836113ea5f7e8": {
@@ -408,6 +422,7 @@
     "featured_collections_y6X3a9",
     "rich_text_N8N9Ej",
     "174057468455f93cc4",
+    "rich_text_HF7dCj",
     "17520836113ea5f7e8"
   ]
 }
