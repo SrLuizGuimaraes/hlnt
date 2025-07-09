@@ -61,9 +61,9 @@ Supported variables
           {%- if product.compare_at_price > product.price -%}
            {%- if settings.discount_mode == 'percentage' -%}
   {%- assign discount = variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | round -%}
-  {%- assign savings = 'Save ' | append: discount | append: '%' -%}
+  {%- assign savings = 'Sale ' | append: discount | append: '%' -%}
 {%- else -%}
-  {%- capture savings -%}Save {{ variant.compare_at_price | minus: variant.price | money }}{%- endcapture -%}
+  {%- capture savings -%}Sale {{ variant.compare_at_price | minus: variant.price | money }}{%- endcapture -%}
 {%- endif -%}
 
 
