@@ -91,8 +91,8 @@
             "icon": "picto-credit-card",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Parcelamento de 5x sem juros",
-            "content": ""
+            "title": "Parcelamento",
+            "content": "<p> 5x sem juros<br/><br/></p>"
           }
         },
         "item_TRcayU": {
@@ -101,8 +101,8 @@
             "icon": "picto-shield",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Site seguro, compra tranquila",
-            "content": ""
+            "title": "Segurança",
+            "content": "<p>Site seguro, compra tranquila</p>"
           }
         },
         "item_4DzJEW": {
@@ -111,8 +111,8 @@
             "icon": "picto-customer-support",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Garantia de 12 meses",
-            "content": ""
+            "title": "Confiabilidade",
+            "content": "<p>Garantia de 12 meses</p>"
           }
         },
         "item_w4DVYg": {
@@ -121,8 +121,8 @@
             "icon": "picto-delivery-truck",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Envio imediato para todo o brasil",
-            "content": ""
+            "title": "Entrega Garantida",
+            "content": "<p>Envio imediato para todo o brasil</p>"
           }
         }
       },
