@@ -133,7 +133,7 @@
         "item_w4DVYg"
       ],
       "custom_css": [
-        "{margin-top: -50px; margin-bottom: -50px;}"
+        "{margin-top: -50px; margin-bottom: -60px;}"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
