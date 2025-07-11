@@ -17,13 +17,13 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "frete grátis a partir de R$499,00"
+            "text": "<strong>frete grátis a partir de R$499,00</strong>"
           }
         },
         "message_zFEHtc": {
           "type": "message",
           "settings": {
-            "text": "10% na primeira compra cupom PRIMEIRACOMPRA"
+            "text": "<strong>10% na primeira compra cupom PRIMEIRACOMPRA</strong>"
           }
         }
       },
@@ -48,7 +48,7 @@
         "enable_sticky": false,
         "show_separation_border": false,
         "reduce_padding": true,
-        "logo": "shopify://shop_images/LOGO_HELENITA_Prancheta_1_5e00b2c8-f3b9-4334-98c2-40bbfc4af956.png",
+        "logo": "shopify://shop_images/logo3_7eeaca36-b7b7-48b6-babd-e13b84c3e9f6.png",
         "logo_max_width": 110,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
@@ -64,7 +64,7 @@
         "show_country_flag": false,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/LOGO_HELENITA_Prancheta_1_5e00b2c8-f3b9-4334-98c2-40bbfc4af956.png"
+        "transparent_logo": "shopify://shop_images/logo3_7eeaca36-b7b7-48b6-babd-e13b84c3e9f6.png"
       }
     }
   },
