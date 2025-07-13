@@ -56,6 +56,18 @@
             "size_chart_page": ""
           }
         },
+        "feature_with_icon_e477Dq": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "10% OFF NA SUA PRIMEIRA COMPRA CUPOM: PRIMEIRACOMPRA",
+            "link": "",
+            "icon": "picto-coupon",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -97,6 +109,7 @@
         "liquid_BtCgjd",
         "quantity_selector",
         "variant_picker",
+        "feature_with_icon_e477Dq",
         "buy_buttons",
         "separator",
         "description",
