@@ -1,6 +1,55 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+<!-- SNIPPET: free-shipping-bar.liquid -->
+<div id="free-shipping-bar" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f9ff;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 16px;
+  z-index: 9999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+">
+  Calculando seu frete grátis...
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const threshold = 499.99;
+    const bar = document.getElementById('free-shipping-bar');
+
+    function formatCurrency(value) {
+      return value.toLocaleString('pt-BR', {
+        style: 'currency',
+        currency: 'BRL'
+      });
+    }
+
+    function updateFreeShippingBar() {
+      fetch('/cart.js')
+        .then(response => response.json())
+        .then(data => {
+          const total = data.items_subtotal_price / 100; // em reais
+          const remaining = threshold - total;
+
+          if (remaining > 0) {
+            bar.innerHTML = `Faltam <strong>${formatCurrency(remaining)}</strong> para você atingir o frete grátis!`;
+            bar.style.backgroundColor = "#f0f9ff";
+            bar.style.color = "#333";
+          } else {
+            bar.innerHTML = `🎉 Você garantiu frete grátis!`;
+            bar.style.backgroundColor = "#d1fae5";
+            bar.style.color = "#065f46";
+          }
+        })
+        .catch(error => {
+          bar.innerHTML = "Erro ao calcular frete grátis.";
+        });
+    }
+
+    updateFreeShippingBar();
+  });
+</script>
