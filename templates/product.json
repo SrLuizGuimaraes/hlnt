@@ -136,7 +136,7 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div id=\"cartpanda-shipping-calculator\"></div>\n<script src=\"https://cdn.cartpanda.com/widgets/shipping-calculator.js\" async></script>",
+        "liquid": "<div id=\"cartpanda-shipping-calculator\"></div>\n<script>\n  (function() {\n    var script = document.createElement(\"script\");\n    script.src = \"https://helenita.mycartpanda.com/widgets/shipping-calculator.js\";\n    script.async = true;\n    document.body.appendChild(script);\n  })();\n</script>",
         "text_alignment": "center"
       }
     },
